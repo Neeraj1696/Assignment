@@ -1,0 +1,25 @@
+.Cards{
+    display: flex;
+    flex-flow: wrap;
+    gap: 20px;
+    padding-top: 20px;
+   
+}
+.card{
+    padding-bottom: 1rem;
+    background: #121414;
+    color: white;
+    border-radius:10px;
+}
+button{
+    width: 5rem;
+    height: 2rem;
+    border-radius: 5px;
+    margin-left: 10px;
+    background: #3e3c3c;
+    color: white;
+    cursor: pointer;
+}
+.card > h4{
+    margin-left: 10px;
+}

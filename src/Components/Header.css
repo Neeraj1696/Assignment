@@ -1,0 +1,33 @@
+.header_discription > span {
+    display: flex;
+    align-items: center;
+    margin-top:10px;
+}
+.button{
+    display: flex;
+    padding: 10px;
+    width: 94px;
+    border: 1px solid #302d2d;
+    height: 18px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin: 5px;
+    margin-top: 2rem;
+}
+.button > h4 {
+    font-size:10px
+}
+.tranding_buttons{
+    display: flex;
+}
+.tranding_buttons :hover{
+    background-color: #302d2d;
+    color: white;
+    cursor: pointer;
+}
+.header_heading > h2{
+   font-size: 18px;
+   font-weight:500;
+
+}
